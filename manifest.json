@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Nimium to derivatives",
+	"version": "0.1",
+	"description": "Replaces Nimium with one of the derivatives that surfaced during the years",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}

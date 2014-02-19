@@ -37,7 +37,7 @@ function handleText(textNode)
 
 	v = v.replace(/\bNimium\b/g, resloc);
 	v = v.replace(/\bNIMIUM\b/g, resupc);
-	
+
 	textNode.nodeValue = v;
 }
 

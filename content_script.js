@@ -30,8 +30,8 @@ function walk(node)
 function handleText(textNode)
 {
 	var v = textNode.nodeValue;
-	var derloc = ['Narnium', 'Niminum', 'Nijmium', 'Nimimum', 'Nimum', 'Minum']
-	var derupc = ['NARNIUM', 'NIMINUM', 'NIJMIUM', 'NIMIMUM', 'NIMUM', 'MINUM']
+	var derloc = ['Narnium', 'Niminum', 'Nijmium', 'Nimimum', 'Nimum', 'Minum'];
+	var derupc = ['NARNIUM', 'NIMINUM', 'NIJMIUM', 'NIMIMUM', 'NIMUM', 'MINUM'];
 	var resloc = derloc[Math.floor(Math.random() * derloc.length)];
 	var resupc = derupc[Math.floor(Math.random() * derupc.length)];
 

@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Nimium to derivatives",
 	"version": "0.1",
-	"description": "Replaces Nimium with one of the derivatives that surfaced during the years",
+	"description": "Replaces 'Nimium' or 'NIMIUM' with one of the derivatives that surfaced during the years",
 	"content_scripts":
 	[
 		{
